@@ -1,0 +1,14 @@
+Hello,
+Changes in regards language pack for jira were performed following below steps:
+ https://community.atlassian.com/t5/Answers-Developer-Questions/How-I-can-make-changes-in-the-translation-of-my-Jira/qaq-p/494652
+
+Please take in cosideration also the following link to properly perform a custom field trasnaltion:
+ https://confluence.atlassian.com/adminjiraserver073/configuring-a-custom-field-861253383.html?_ga=2.62077295.217341238.1590656571-1007058614.1585736270#Configuringacustomfield-Translatingacustomfield
+
+The fields changed could be found in spreadsheet attached:
+
+I have been able to move the custom changes by exporting/importing the xml backup file and db backup (check link below):
+https://confluence.atlassian.com/adminjiraserver/backing-up-data-938847673.html
+   (this step should be taken in cosnideration on deploy phase in order to be imported then).
+   
+   BR.Sergiu
